@@ -19,9 +19,7 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: rgb(255, 255, 255);
   border-radius: 30px;
-  border: 1px solid #fff;
   box-shadow: 0 0 10px;
   margin: 46px auto 0px;
 }
