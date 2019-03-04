@@ -1,0 +1,80 @@
+#colorpicker {
+  height: 237px;
+  width: 436px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #BFBFBF;
+  text-align: center;
+  border-radius: 15px;
+}
+p {
+  color: rgb(71, 71, 71);
+  font-size: 20px;
+  margin: 30px auto 0px;
+}
+
+#result {
+  height: 48px;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: 0 0 10px;
+  margin: 46px auto 0px;
+}
+#face{
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+}
+.face1 {
+  margin-top: -100px;
+}
+
+.face2 {
+  margin-left: -157px;
+  margin-top: -50px;
+}
+.face3 {
+  margin-left: -78px;
+  margin-top: 0px;
+}
+.face4 {
+  margin-left: -235px;
+  margin-top: -50px;
+}
+.face5 {
+  margin-left: -275px;
+  margin-top: -199px;
+}
+.face6 {
+  margin-left: -157px;
+  margin-top: -298px;
+}
+.face7 {
+  margin-left: -118px;
+  margin-top: -298px;
+}
+.kao {
+  width: 353px;
+}
+#bar {
+  margin: 27px auto 0px;
+  width: 384px;
+}
+.noUi-connect {
+  background: #fff;
+}
+
+.noUi-horizontal .noUi-handle {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  background: rgb(255, 10, 141);
+  box-shadow: inset 0 0 0px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
+}
+
+.noUi-horizontal .noUi-handle:after, .noUi-horizontal .noUi-handle:before {
+	width: 0px;
+}
