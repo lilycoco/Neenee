@@ -1,10 +1,9 @@
 $(function () {
   var resultElement = document.getElementById('result');
   var sliders = document.getElementsByClassName('sliders');
-  var colors = [0, 0, 0];
+  var colors = [0, 0, 0, 0.7];
   
-  [].slice.call(sliders).forEach(function (slider, index) {
-  
+  [].slice.call(sliders).forEach(function (slider) {
     noUiSlider.create(slider, {
       start: 765,
       connect: [true, false],
