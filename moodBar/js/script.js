@@ -1,7 +1,7 @@
 $(function () {
   var resultElement = document.getElementById('result');
   var sliders = document.getElementsByClassName('sliders');
-  var colors = [0, 0, 0, 0.9];
+  var colors = [0, 0, 0, 0.8];
   
   [].slice.call(sliders).forEach(function (slider) {
     noUiSlider.create(slider, {
