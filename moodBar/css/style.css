@@ -1,28 +1,38 @@
 #colorpicker {
-  height: 237px;
-  width: 436px;
+  height: 245px;
+  width: 440px;
   margin: 0 auto;
-  padding: 10px;
   border: 1px solid #BFBFBF;
-  text-align: center;
   border-radius: 15px;
-}
-p {
-  color: rgb(71, 71, 71);
-  font-size: 20px;
-  margin: 30px auto 0px;
 }
 
 #result {
+  text-align: center;
+  height: 245px;
+  width: 440px;
+  border-radius: 15px;
+}
+
+#tytle {
+  color: rgb(71, 71, 71);
+  font-size: 22px;
+  padding-top: 35px;
+  /* font-weight: bold; */
+
+}
+
+#faces {
   height: 48px;
   width: 400px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   border-radius: 30px;
-  box-shadow: 0 0 10px;
-  margin: 46px auto 0px;
+  margin: 30px auto 0px;
+  box-shadow: rgb(189, 189, 189) 0 0 15px;
+  background: #fff;
 }
+
 #face{
   height: 40px;
   width: 40px;
@@ -60,8 +70,8 @@ p {
   width: 353px;
 }
 #bar {
-  margin: 27px auto 0px;
-  width: 384px;
+  margin: 20px auto 0px;
+  width: 350px;
 }
 .noUi-connect {
   background: #fff;
@@ -77,4 +87,17 @@ p {
 
 .noUi-horizontal .noUi-handle:after, .noUi-horizontal .noUi-handle:before {
 	width: 0px;
+}
+
+#levels {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 30px;
+}
+
+.level {
+  color: rgb(71, 71, 71);
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Ludica Sans Unicode';
 }
